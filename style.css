@@ -67,9 +67,27 @@ a {
 
 .hero-main-text {
     font-size: 48px;
-    color: white;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
+.hero-subtext {
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 120px;
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 16px;
+    border: none;
+}
 
 .second {
  display: flex;
