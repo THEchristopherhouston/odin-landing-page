@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.first {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 12px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0 24px;
+}
+
+li {
+    padding: 0 24px;
+}
+
+a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #E5E7EB;;
+}
+
+.hero-logo-text {
+    font-size: 24px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    gap: 50px;
+    margin: 50px 100px;
+}
+
+
+.hero-image {
+    display: flex;
+    background-color: #575261;
+    color: #E5E7EB;
+    width: 600px;
+    height: 300px;
+    margin: 0 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: white;
+}
+
+
+.second {
+ display: flex;
+}
+
+.third {
+   background-color: #E5E7EB;
+   display: flex;
+}
