@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+    margin: 0;
 }
 
 .first {
@@ -18,13 +19,13 @@ body {
     margin: 10px 100px;
 }
 
-.header ul {
+ ul {
     display: flex;
     list-style-type: none;
     padding: 0 24px;
 }
 
-li {
+.header li {
     padding: 0 24px;
 }
 
@@ -89,8 +90,40 @@ button {
     border: none;
 }
 
-.second {
+.more-info {
  display: flex;
+ flex-direction: column;
+ margin-bottom: 50px;
+}
+
+.more-info-header {
+    margin: 60px 0;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-list {
+    display: flex;
+    gap: 35px;
+    margin: 50px 150px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.info-placeholder {
+    width: 200px;
+    height: 200px;
+    border: solid #3882F6 8px;
+    border-radius: 20px;
 }
 
 .third {
