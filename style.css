@@ -204,3 +204,13 @@ button {
     border-radius: 16px;
     border: 3px solid #F9FAF8;
 }
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+.copyright {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 35px;
+}
