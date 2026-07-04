@@ -126,7 +126,49 @@ button {
     border-radius: 20px;
 }
 
-.third {
+.testimonial{
    background-color: #E5E7EB;
    display: flex;
+   flex-direction: column;
+   margin-bottom:50px ;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 150px 450px 50px 450px;
+    text-align: center;
+}
+.quote-tag {
+    font-size: 24px;
+    color: #1F2937;
+    align-self: flex-end;
+    font-weight: 700;
+    padding: 10px 50px 50px 0;
+}
+
+.call-to-action {
+    display: flex;
+    padding: 100px 50px 100px 50px;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    gap: 70px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 40px;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.banner-text-header {
+    color:#F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
 }
