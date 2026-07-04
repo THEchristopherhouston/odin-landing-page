@@ -94,6 +94,8 @@ button {
  display: flex;
  flex-direction: column;
  margin-bottom: 50px;
+ align-items: center;
+ flex-wrap: wrap;
 }
 
 .more-info-header {
@@ -105,13 +107,17 @@ button {
 }
 
 .info-list {
+    flex-wrap: wrap;
     display: flex;
-    gap: 35px;
-    margin: 50px 150px;
+    gap: 50px;
+    margin: 50px 0px;
 }
 
 .list-item {
+    align-items: center;
+   
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
     gap: 20px;
     font-size: 18px;
@@ -124,6 +130,13 @@ button {
     height: 200px;
     border: solid #3882F6 8px;
     border-radius: 20px;
+}
+
+.info-text {
+    width: 200px;
+    flex-shrink: 2;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .testimonial{
